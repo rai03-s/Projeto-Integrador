@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — TaguaBurger</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Tagua<span>Burger</span></a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Cardápio</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a class="atual" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-cta" href="https://wa.me/556130446178">Pedir no WhatsApp</a>
+    </div>
+  </header>
+
+  <main class="container contato-page">
+    <h1>Fale conosco</h1>
+    <div class="contato-grid">
+      <div class="contato-info">
+        <h2>Endereço</h2>
+        <p>QNG 32 Lote 01 Loja 01 — Taguatinga Norte, Brasília - DF</p>
+        <h2>Horário</h2>
+        <p>Diariamente: 11:30 — 01:00</p>
+        <h2>WhatsApp</h2>
+        <p><a href="https://wa.me/556130446178">55 61 3044-6178</a></p>
+        <h2>Redes</h2>
+        <p><a href="https://www.instagram.com/taguaburguer/">@taguaburguer</a></p>
+      </div>
+      <div class="contato-form">
+        <h2>Formulário rápido</h2>
+        <form action="Enviar" method="POST">
+          <label>Nome<input type="text" name="name" required></label>
+          <label>Telefone<input type="text" name="phone" required></label>
+          <label>Mensagem<textarea name="message" rows="4" required></textarea></label>
+          <button class="btn btn-cheio" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <a href="index.html" class="logo small">Tagua<span>Burger</span></a>
+        <p>© <span id="year"></span> TaguaBurger</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
